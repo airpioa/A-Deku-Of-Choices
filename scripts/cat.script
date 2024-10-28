@@ -1,0 +1,4 @@
+display_message("meow meow moew lux", "1");
+display_message("you and lux want to join my party sure!", player);
+add_party_member("lux", "1");
+add_party_member("ptrn_black_cat", "2");
