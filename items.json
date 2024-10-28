@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0001",
+      "name": "Garden Key",
+      "description": "Opens the garden gate.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "garden_key.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}

@@ -1,0 +1,6 @@
+if self.frame == 17 then
+  enable_zone(self.property["block_zone"]);
+  set_entity_script(self, "house_open_door");
+  play_sound("door_close.wav");
+  play_animation(self, "close");
+end;

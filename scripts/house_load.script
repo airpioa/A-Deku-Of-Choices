@@ -1,0 +1,5 @@
+if global.property["show_house_intro"] == true then
+  load_map("house", coord[-1, 4, 0], NORTH);
+else
+  load_map("house", coord[0, 3, 0], NORTH);
+end;

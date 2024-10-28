@@ -1,0 +1,19 @@
+if global.property["show_house_intro"] == true then
+  set_global_property("show_house_intro", false);
+  player.frame = 1;
+  wait(0.75);
+  interact_with_entity("gate_left");
+  wait(0.5);
+  move_character(player, player.north_tile, true);
+  move_character(player, player.east_tile, true);
+  player.direction = NORTH;
+  wait(0.25);
+  interact_with_entity("gate_left");
+  wait(1);
+  fade_out(0.5);
+  reset_camera();
+  camera.view_model = "view_model";
+  fade_in(0.5);
+  set_player_movement_locked(false);
+  enable_zone("Exit Map");
+end;

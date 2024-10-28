@@ -1,0 +1,9 @@
+if self.property["on"] == false then
+  self.property["on"] = true;
+  play_sound("light_on.wav");
+  play_animation(self, "on");
+else
+  self.property["on"] = false;
+  play_sound("light_off.wav");
+  play_animation(self, "off");
+end;

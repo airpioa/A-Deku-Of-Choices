@@ -1,0 +1,7 @@
+if global.property["show_house_intro"] == true then
+  disable_zone("Exit Map");
+  set_player_movement_locked(true);
+  lock_camera();
+  move_camera("Gate");
+  camera.view_model = null;
+end;

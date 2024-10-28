@@ -1,0 +1,20 @@
+if global.property["show_garden_intro"] == true then
+  set_global_property("show_garden_intro", false);
+  player.frame = 1;
+  wait(2);
+  show_message("Legends tell that hidden somewhere\nbeneath the bamboo grove...", 4, false);
+  wait(1);
+  show_message("...lies an entrance to the [color=#7ade9f]Lost Forest[/color].", 4, false);
+  wait(0.5);
+  move_camera_over_time("Gate", 3);
+  wait(1);
+  show_message("[color=#6b60bf]雨:[/color] The garden gate is locked.", 2, true);
+  wait(1);
+  show_message("[color=#6b60bf]雨:[/color] I'll have to search elsewhere for now.", 3, true);
+  wait(1);
+  fade_out(0.5);
+  reset_camera();
+  camera.view_model = "view_model";
+  fade_in(0.5);
+  set_player_movement_locked(false);
+end;

@@ -1,0 +1,2 @@
+play_sound("locked.wav");
+show_message("[color=#6b60bf]雨:[/color] The doors are locked.\nI'll have to find another way in.", 3, true);

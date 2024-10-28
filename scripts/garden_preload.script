@@ -1,0 +1,7 @@
+disable_screen_effect();
+if global.property["show_garden_intro"] == true then
+  set_player_movement_locked(true);
+  lock_camera();
+  move_camera(coord[-0.5, 1, 50], coord[-0.5, 0.95, 100]);
+  rotate_entity_towards(player, tile[0, 0, 0], false);
+end;

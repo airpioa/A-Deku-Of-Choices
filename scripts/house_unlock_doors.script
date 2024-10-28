@@ -1,0 +1,3 @@
+remove_zone("Unlock Doors");
+set_entity_script("door_left", "house_open_door");
+set_entity_script("door_right", "house_open_door");

@@ -1,0 +1,2 @@
+play_sound("locked.wav");
+show_message("[color=#6b60bf]雨:[/color] The garden gate is locked.\nI'll have to search elsewhere for now.", 3, true);

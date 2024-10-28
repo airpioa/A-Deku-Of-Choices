@@ -1,0 +1,28 @@
+set_entity_script(self, "");
+fade_out(0.2);
+hide_widget("items");
+set_player_movement_locked(true);
+put_player(coord[0, 3, 0]);
+lock_camera();
+move_camera("Acorn");
+fade_in(0.2);
+wait(0.5);
+play_sound("sand.wav");
+while self.offset_z > -5.5 do
+  $height = self.offset_z;
+  self.offset_z = $height - 0.015;
+  wait(0.01);
+end;
+hide_widget("message", 0.5);
+remove_entity(self);
+look_at_target_over_time(coord[0.24, -0.45, 100], 3);
+show_widget("imagination_01", 1.5);
+wait(2.5);
+show_widget("imagination_02", 1.5);
+wait(2.5);
+widget["imagination_01"].element["text_image"].image = null;
+widget["imagination_02"].element["text_image"].image = null;
+enable_screen_effect();
+play_music("rain_static.ogg");
+wait(2);
+quit_game();
