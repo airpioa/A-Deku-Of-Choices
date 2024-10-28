@@ -2,12 +2,38 @@
   "items": [
     {
       "id": "ITEM_0001",
-      "name": "Garden Key",
-      "description": "Opens the garden gate.",
+      "name": "Yellow Key",
+      "description": "A key that is yellow.",
       "tags": [],
-      "properties": {},
       "stackable": false,
-      "image": "garden_key.png",
+      "image": "yellow_key.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0002",
+      "name": "Blue Potion",
+      "description": "A potion that is blue.",
+      "tags": [],
+      "stackable": false,
+      "image": "blue_potion.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0003",
+      "name": "Cheese",
+      "description": "A wedge of stinky cheese.",
+      "tags": [],
+      "stackable": false,
+      "image": "cheese.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0004",
+      "name": "Scroll",
+      "description": "A dusty old scroll.",
+      "tags": [],
+      "stackable": false,
+      "image": "scroll.png",
       "usable": false
     }
   ],

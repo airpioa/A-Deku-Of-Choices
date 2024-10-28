@@ -1,1 +1,2 @@
-load_map("garden", coord[-1, 3, 0], NORTH);
+load_map("overworld", coord[-1, -1, 0], EAST);
+display_message("Welcome to the Kenney 1-Bit example game!");

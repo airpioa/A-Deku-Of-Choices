@@ -1,0 +1,5 @@
+set_entity_script(self, "");
+play_sound("book.wav");
+give_item("ITEM_0004");
+wait(0.8);
+play_sound("acquire_item.wav");

@@ -1,0 +1,12 @@
+if player.inventory contains "ITEM_0001" then
+   set_entity_script(self, "");
+   play_sound("chest_open.wav");
+   remove_item("ITEM_0001");
+   play_animation(self, "open");
+   give_item("ITEM_0002");
+   wait(0.8);
+   play_sound("acquire_item.wav");
+else
+   play_sound("chest_locked.wav");
+   display_message("The chest is locked.");
+end;

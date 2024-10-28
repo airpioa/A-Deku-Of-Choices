@@ -1,0 +1,6 @@
+set_entity_script(self, "");
+play_sound("key.wav");
+remove_entity("key");
+give_item("ITEM_0001");
+wait(0.8);
+play_sound("acquire_item");
