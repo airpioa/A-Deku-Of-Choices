@@ -1,20 +1,18 @@
 {
   "items": [
     {
-      "id": "ITEM_0001",
-      "name": "Yellow Key",
-      "description": "A key that is yellow.",
-      "tags": [],
-      "stackable": false,
-      "image": "yellow_key.png",
-      "usable": false
-    },
-    {
       "id": "ITEM_0002",
-      "name": "Blue Potion",
-      "description": "A potion that is blue.",
+      "name": " Love Potion",
+      "description": "A Love potion.",
       "tags": [],
-      "stackable": false,
+      "properties": {},
+      "stackable": true,
+      "stack_limit": 1,
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "melee",
+      "weapon_sound": "drink.wav",
       "image": "blue_potion.png",
       "usable": false
     },
@@ -23,6 +21,7 @@
       "name": "Cheese",
       "description": "A wedge of stinky cheese.",
       "tags": [],
+      "properties": {},
       "stackable": false,
       "image": "cheese.png",
       "usable": false
@@ -32,8 +31,19 @@
       "name": "Scroll",
       "description": "A dusty old scroll.",
       "tags": [],
+      "properties": {},
       "stackable": false,
       "image": "scroll.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0001",
+      "name": "Yellow Key",
+      "description": "A key that is yellow.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "yellow_key.png",
       "usable": false
     }
   ],
