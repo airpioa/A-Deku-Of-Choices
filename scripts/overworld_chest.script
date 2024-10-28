@@ -7,12 +7,11 @@ if player.inventory contains "ITEM_0001" then
   wait(0.8);
   play_sound("acquire_item.wav");
   display_message("You start blacking out.");
-  damage_entity(player, 9);
+  damage_entity(player, 19);
   stop_music();
   shake_screen(2);
   play_sound("gloonk.wav");
   load_map("underground", coord[0, 0, 0], SOUTH);
-  set_player_movement_locked(true);
 else
   play_sound("chest_locked.wav");
   display_message("The chest is locked.");
