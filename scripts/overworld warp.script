@@ -1,0 +1,4 @@
+save_game();
+fade_out(1);
+fade_out(1);
+load_map("overworld", coord[0, 0, 0], SOUTH);
