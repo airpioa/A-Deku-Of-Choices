@@ -1,3 +1,2 @@
 load_map("overworld", coord[-1, -1, 0], EAST);
 display_message("Welcome to A Deku of Choices a Rogue~Like Dating Sim");
-play_music("The Adventure Begins.ogg");
