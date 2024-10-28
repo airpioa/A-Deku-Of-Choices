@@ -1,0 +1,2 @@
+add_effect("ptrn_tradjp_EF_smoke", coord[0, 0, 0], "2");
+start_battle("yandere");

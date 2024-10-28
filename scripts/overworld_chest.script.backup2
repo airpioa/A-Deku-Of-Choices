@@ -12,6 +12,7 @@ if player.inventory contains "ITEM_0001" then
   shake_screen(2);
   play_sound("gloonk.wav");
   load_map("underground", coord[0, 0, 0], SOUTH);
+  set_player_movement_locked(true);
 else
   play_sound("chest_locked.wav");
   display_message("The chest is locked.");
