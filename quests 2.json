@@ -1,0 +1,12 @@
+{
+  "quests": [
+    {
+      "id": "QUEST_0001",
+      "name": "meet sarah for date",
+      "description": "",
+      "tags": [],
+      "complete_script": "overworld_chest",
+    }
+  ],
+  "localized": false
+}

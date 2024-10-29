@@ -1,0 +1,8 @@
+fade_out(1);
+save_game();
+load_map("Main School Grounds", coord[0, 0, 0], SOUTH);
+save_game();
+fade_in(1);
+load_game();
+shake_screen(2);
+show_credits();

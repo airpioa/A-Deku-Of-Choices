@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0002",
+      "name": " Love Potion",
+      "description": "A Love potion.",
+      "tags": [],
+      "properties": {},
+      "stackable": true,
+      "stack_limit": 1,
+      "equippable": true,
+      "effects": [{"amount":5,"stat":"max_hp","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "melee",
+      "weapon_sound": "drink.wav",
+      "weapon_consumption_type": "unlimited_use",
+      "image": "blue_potion.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0003",
+      "name": "Cheese",
+      "description": "A wedge of stinky cheese.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "cheese.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0004",
+      "name": "Scroll",
+      "description": "A dusty old scroll.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "scroll.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0001",
+      "name": "Yellow Key",
+      "description": "A key that is yellow.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "yellow_key.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}

@@ -27,6 +27,13 @@
       "tags": [],
       "properties": {},
       "stackable": false,
+      "projectile": true,
+      "projectile_min_damage": 1,
+      "projectile_max_damage": 6,
+      "projectile_speed": 75,
+      "projectile_min_range": 1,
+      "projectile_max_range": 8,
+      "projectile_sound": "Crash.wav",
       "image": "cheese.png",
       "usable": false
     },
