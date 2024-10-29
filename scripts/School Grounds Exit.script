@@ -1,0 +1,6 @@
+save_game();
+fade_out(1);
+load_map("School", coord[0, 0, 0], SOUTH);
+save_game();
+load_game();
+save_game();

@@ -4,4 +4,4 @@ load_map("overworld", coord[-1, -1, 0], EAST);
 display_message("Welcome to A Deku of Choices a Rogue~Like Dating Sim");
 play_music("The Adventure Begins.ogg");
 give_quest("QUEST_0001");
-display_message("I need to meet sarah for the date I think I left my gift in the chest", player);
+display_message("I must attend school before my tardiness becomes evident.", player);

@@ -6,8 +6,7 @@ if player.inventory contains "ITEM_0001" then
   give_item("ITEM_0002");
   wait(0.8);
   play_sound("acquire_item.wav");
-  display_message("You start blacking out.");
-  damage_entity(player, 19);
+  display_message("You blacked out.");
   stop_music();
   shake_screen(2);
   play_sound("gloonk.wav");

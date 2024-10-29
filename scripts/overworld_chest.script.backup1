@@ -6,12 +6,13 @@ if player.inventory contains "ITEM_0001" then
   give_item("ITEM_0002");
   wait(0.8);
   play_sound("acquire_item.wav");
-  display_message("You start blacking out.");
+  display_message("You blacked out.");
   damage_entity(player, 19);
   stop_music();
   shake_screen(2);
   play_sound("gloonk.wav");
   load_map("underground", coord[0, 0, 0], SOUTH);
+  start_dialogue("yandere");
 else
   play_sound("chest_locked.wav");
   display_message("The chest is locked.");
